@@ -15,8 +15,8 @@ services:
     volumes:
       - '/htdocs'
     ports:
-      - '8080:80'
-      - '8081:443'
+      - '8083:80'
+      - '449:443'
     restart: unless-stopped
     user: apache:apache
     # read_only: true
